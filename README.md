@@ -1,4 +1,4 @@
-# BMS
+# BMF
 
 La actividad II de la Materia de inteligencia Artificial tiene como objetivo, identificar sobre un grafo cuales son los nodos que te podrían sugerir una ruta buena para lograr llegar a una casilla de destino. Ademas de conservar información valiosa con respecto a que tan bueno es incluir una casilla en una ruta.
 Es decir, a la ponderacion de cada valor se suma la diferencia entre la media y la ruta actual.
