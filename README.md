@@ -36,5 +36,8 @@ Una vez que inicias:
 Para desarrollar la actividad, realice 20 iteraciones del entrenamiento por cada personaje. 
 Cada iteración se realizaba usando un vector de visitados, una pila para controlar el acceso a posiciones marcadas como visitadas y use la matriz con ponderaciones para sobre escribir los datos.
 Para realizar la busqueda a cualquier punto en base al entrenamiento aplique dijkstra para cada uno de los deportistas. De esa manera solo llamó a una funcion para imprimir el camino minimo desde ese punto, lo cual se hace checando el padre de cada uno de los nodos.
+Entre mas nodos adyacentes tenga cada una de las casillas, el dijkstra de cada deportista varía mas, es decir que entre menos bombas hay mas probabilidad de que el camino de cada uno varíe en mas casillas.
+El camino solo existe si se puede formar un grafo entre la casilla de busqueda, la casilla de inicio, y la casilla final. De no ser así, no es posible encontrar el camino.
+Esto se puede verificar añadiendo un BFS antes de realizar el dijkstra.
 
 
