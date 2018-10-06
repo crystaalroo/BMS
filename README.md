@@ -4,14 +4,14 @@ La actividad II de la Materia de inteligencia Artificial tiene como objetivo, id
 Para esto se uso un sistema de premios y castigos, de tal manera que la ruta del entrenamiento se premia si esta es mejor que la media entre el valor de la ruta maxima y el valor de la ruta minima que han sido calculados hasta ese momento.
 Una vez que se tiene el premio o castigo de la ruta, es necesario sumarle este valor a todos los miembros de la misma.
 
-##MAXIMO?
+## MAXIMO?
 
 Si bien la actividad establece que el MAX_INT/2 debe ser tomado como inicialización para la matriz ponderada, el trabajar con un entero tan grande, hace que no sea posible aplicar un dijkstra, por lo tanto, definí un nuevo maximo
 3*400*8=9600
 Ese es un entero que es muy imposible alcanzar, ya que implicaria pasar 8 veces por cada 1 de las 400 casillas y que todas presenten el maximo esfuerzo para cada uno de los atletas. Lo cual no es posible, ya que el problem establece que todos tienen ponderaciones diferentes. Y por lo menos el 20% de la matriz no se puede recorrer, ya que para este caso, hay bombas.
 
 
-##COMO USAR EL PROGRAMA
+## COMO USAR EL PROGRAMA
 
 Una vez que inicias:
 1. Selecciona el porcentaje de bombas 
