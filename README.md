@@ -11,6 +11,8 @@ Si bien la actividad establece que el MAX_INT/2 debe ser tomado como inicializac
 3*400*8=9600
 Ese es un entero que es muy imposible alcanzar, ya que implicaria pasar 8 veces por cada 1 de las 400 casillas y que todas presenten el maximo esfuerzo para cada uno de los atletas. Lo cual no es posible, ya que el problem establece que todos tienen ponderaciones diferentes. Y por lo menos el 20% de la matriz no se puede recorrer, ya que para este caso, hay bombas.
 
+**Recomendación: 30 entrenamientos por atleta.
+
 
 ## COMO USAR EL PROGRAMA
 
